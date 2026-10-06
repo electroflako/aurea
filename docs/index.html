@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AUREA · Joseba Burusko — Escultura y Joyería</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,600;1,200&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Inter', sans-serif; background-color: #0e0d0b; color: #ece8e0; }
+    .font-display { font-family: 'Raleway', sans-serif; }
+  </style>
+</head>
+<body class="selection:bg-amber-900 selection:text-white">
+  <!-- Nav -->
+  <header class="fixed inset-x-0 top-0 z-50 bg-[#0e0d0b]/80 backdrop-blur-md border-b border-white/10">
+    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="#" class="font-display tracking-[0.35em] text-lg font-light text-white">BURUSKO</a>
+      <nav class="hidden md:flex gap-8 text-[11px] uppercase tracking-[0.25em] text-white/50">
+        <a href="#obra" class="hover:text-white transition">Obra</a>
+        <a href="#filosofia" class="hover:text-white transition">Filosofía</a>
+        <a href="#contacto" class="hover:text-white transition">Contacto</a>
+      </nav>
+      <span class="text-xs font-mono text-white/40">Arazuri, Navarra</span>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="min-h-screen flex items-end pb-24 pt-36 px-6 max-w-6xl mx-auto">
+    <div class="space-y-6">
+      <span class="text-[11px] font-medium tracking-[0.4em] text-white/40 uppercase">Hierro · Madera · Piedra · Tierra</span>
+      <h1 class="font-display text-6xl md:text-8xl font-extralight tracking-tight text-white leading-none">
+        Joseba<br><span class="italic text-white/60">Burusko</span>
+      </h1>
+      <p class="max-w-xl text-sm leading-relaxed text-white/60 pt-4">
+        Escultor navarro. La belleza no necesita hacer ruido. Cada pieza se moldea buscando la tensión exacta entre la forma y el vacío, reduciendo la escultura a la escala del cuerpo.
+      </p>
+      <div class="pt-6 flex gap-4">
+        <a href="#obra" class="px-8 py-3.5 border border-white/60 text-xs tracking-[0.3em] uppercase hover:bg-white hover:text-black transition">
+          Ver Colección
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galería de Piezas -->
+  <section id="obra" class="py-24 border-t border-white/10 max-w-6xl mx-auto px-6">
+    <div class="mb-12">
+      <span class="text-[10px] tracking-[0.4em] text-white/40 uppercase">Catálogo</span>
+      <h2 class="font-display text-4xl font-extralight text-white mt-2">La escultura reducida al cuerpo</h2>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="border border-white/10 bg-[#171511] p-6 space-y-4">
+        <div class="aspect-square bg-neutral-900 overflow-hidden relative">
+          <img src="https://images.pexels.com/photos/15650499/pexels-photo-15650499.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=600&h=600" alt="Tentáculo I" class="object-cover w-full h-full grayscale opacity-80 hover:opacity-100 transition duration-500">
+        </div>
+        <div class="flex justify-between items-baseline">
+          <h3 class="font-display text-lg text-white font-light">Tentáculo I</h3>
+          <span class="text-sm font-medium text-amber-200">285 €</span>
+        </div>
+        <p class="text-xs text-white/50">Anillo escultórico de plata 925 oxidada. Forjado y texturizado a mano.</p>
+      </div>
+
+      <div class="border border-white/10 bg-[#171511] p-6 space-y-4">
+        <div class="aspect-square bg-neutral-900 overflow-hidden relative">
+          <img src="https://images.pexels.com/photos/15955348/pexels-photo-15955348.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=600&h=600" alt="Vértebra" class="object-cover w-full h-full grayscale opacity-80 hover:opacity-100 transition duration-500">
+        </div>
+        <div class="flex justify-between items-baseline">
+          <h3 class="font-display text-lg text-white font-light">Vértebra</h3>
+          <span class="text-sm font-medium text-amber-200">385 €</span>
+        </div>
+        <p class="text-xs text-white/50">Colgante articulado de plata 925 de 7 segmentos. Cada segmento se mueve con libertad.</p>
+      </div>
+
+      <div class="border border-white/10 bg-[#171511] p-6 space-y-4">
+        <div class="aspect-square bg-neutral-900 overflow-hidden relative">
+          <img src="https://images.pexels.com/photos/39076774/pexels-photo-39076774.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=600&h=600" alt="Aro Erosión" class="object-cover w-full h-full grayscale opacity-80 hover:opacity-100 transition duration-500">
+        </div>
+        <div class="flex justify-between items-baseline">
+          <h3 class="font-display text-lg text-white font-light">Aro Erosión</h3>
+          <span class="text-sm font-medium text-amber-200">168 €</span>
+        </div>
+        <p class="text-xs text-white/50">Aros con textura irregular de forja que imita la erosión del agua sobre la piedra.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Filosofía -->
+  <section id="filosofia" class="py-24 border-t border-white/10 bg-neutral-950/60">
+    <div class="max-w-4xl mx-auto px-6 text-center space-y-6">
+      <blockquote class="font-display text-2xl md:text-3xl font-extralight italic text-white/80 leading-relaxed">
+        "No hace falta ostentar para ser elegante. La belleza verdadera no pide atención; simplemente, la retiene."
+      </blockquote>
+      <p class="text-xs uppercase tracking-[0.3em] text-white/40">— Joseba Burusko · Taller en Arazuri, Navarra</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contacto" class="border-t border-white/10 py-12 px-6 max-w-6xl mx-auto text-xs text-white/40 flex flex-col md:flex-row justify-between items-center gap-4">
+    <p>© 2026 Joseba Burusko · Todos los derechos reservados.</p>
+    <a href="mailto:hola@josebaburusko.com" class="hover:text-white transition">hola@josebaburusko.com</a>
+  </footer>
+</body>
+</html>
